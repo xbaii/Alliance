@@ -292,6 +292,14 @@ img.imgleft
 	color: #711327;
 }
 
+
+#map-canvas {
+  float: left;
+  width: 450px;
+  height: 300px;
+  background-color: #CCC;
+}
+
 #footercont
 {
 	color: #FFF;
