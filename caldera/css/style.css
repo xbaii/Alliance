@@ -51,13 +51,13 @@ body
 
 ::selection
 {
-	background: #16A085;
+	background: #711327;
 	color: #FFF;
 }
 
 ::-moz-selection
 {
-	background: #16A085;
+	background: #711327;
 	color: #FFF;
 }
 
@@ -281,6 +281,14 @@ img.imgleft
 	color: #4a4a4c;
 }
 .column-4 #socialmedia a span:hover{
+	color: #711327;
+}
+
+#grid-list .grid a{
+	color: #4a4a4c;
+}
+
+#grid-list .grid a:hover{
 	color: #711327;
 }
 
