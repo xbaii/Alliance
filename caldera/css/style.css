@@ -95,6 +95,13 @@ img.imgright
 	margin: 0 0 20px 20px;
 }
 
+img.imgright-logo{
+	float: right;
+	width: 200px;
+	height: 200px;
+	margin: 0 0 20px 20px;
+}
+
 img.imgleft
 {
 	float: left;
