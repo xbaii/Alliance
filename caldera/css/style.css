@@ -299,6 +299,10 @@ img.imgleft
 	color: #711327;
 }
 
+.news-img{
+	width: 100%;
+}
+
 
 #map-canvas {
   float: left;
