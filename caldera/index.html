@@ -16,6 +16,32 @@
 <link rel="stylesheet" href="css/style.css">
 <script src="js/jquery.js"></script>
 <script src="js/scripts.js"></script>
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script src="http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.js"
+type="text/javascript"></script>
+
+<style type="text/css">
+@import url("http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.css");
+
+#feedControl {
+margin-top : 10px;
+margin-left: auto;
+margin-right: auto;
+width : 440px;
+font-size: 12px;
+color: #9CADD0;
+}
+</style>
+<script type="text/javascript">
+function load() {
+var feed ="http://medicalcodingnews.org/category/medical-billing/feed/";
+new GFdynamicFeedControl(feed, "feedControl");
+
+}
+google.load("feeds", "1");
+google.setOnLoadCallback(load);
+</script>
 <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body id="pagetop">
@@ -61,7 +87,10 @@
 
 		<h2>Check out what's new</h2>
     <br />
-		<div class="grid">
+    <div id="news-body">
+      <div id="feedControl">Loading...</div>
+    </div>
+		<!-- <div class="grid">
 			<div class="column-6">
 				<a title="" href="http://news.aapc.com/t-minus-22-and-counting-21-20-19/" target="_blank"><p><strong>September 9, 2015 -- T Minus 22 and Counting (21, 20, 19...)</strong></p>
 				<p>It looks like we are finally going to get to ICD-10. No more delays, no more waiting. So, now what? It is time to get your final checklist ready and make sure that your practice will be prepared October 1, 2015, to submit its claims in ICD-10...</p></a>
@@ -100,7 +129,7 @@
 				<a title="" href="news.html"><p><strong>More..</strong></p>
 				<p></p></a>
 			</div>
-		</div>
+		</div> -->
 
     </div>
 </div>
