@@ -284,7 +284,7 @@ img.imgleft
 		color: rgba(255, 255, 255, 0.7);
 	}
 
-.column-4 #socialmedia a span{
+/*.column-4 #socialmedia a span{
 	color: #4a4a4c;
 }
 .column-4 #socialmedia a span:hover{
@@ -301,7 +301,8 @@ img.imgleft
 
 .news-img{
 	width: 100%;
-}
+}*/
+
 
 
 #map-canvas {
