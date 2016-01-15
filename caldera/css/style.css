@@ -217,7 +217,7 @@ img.imgleft
 {
 	overflow: hidden;
 	width: 100%;
-	background: url("../images/doctorblur.jpg") no-repeat top center fixed;
+	background: url("../images/darkblur.jpg") no-repeat top center fixed;
 	background-size: cover;
 
 	min-height: 300px;
